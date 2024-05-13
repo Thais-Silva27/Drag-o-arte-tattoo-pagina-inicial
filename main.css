@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+    }
+
+   
+
+    h1 {
+        font-family:"Macondo", cursive;
+    }
+        
+
+
+        
+.carousel-imagens h2 {
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+    #carousel-imagens {
+        height:300px; 
+        max-width: 70%;        
+        padding-left: 500px;
+        text-align: center;
+        
+    }
+
+
+    #carousel-imagens img {
+        max-width: 60%; 
+        height: 300px; 
+       
+    }
+
+    .carousel-imagens p {
+        text-align: center;
+        padding-top: 50px;
+        margin-bottom: 40px;
+        padding-bottom: 50px;
+
+    }
+
+       
+    .carousel-imagens {
+        display: flex; /* Torna o conteúdo do elemento flexível */
+        flex-direction: column; /* Organiza os itens verticalmente */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        text-align: center; /* Centraliza o conteúdo dentro do elemento */
+    }
+    
+    .carousel-imagens a {
+        text-decoration: none; /* Remove o sublinhado padrão do link */
+        margin-top: -25px; /* Espaçamento entre o parágrafo e o link */
+        
+    }
+
+    .carousel-imagens button {
+        width: 200px; /* Defina a largura desejada para o botão */
+    }
+    
+    
+
+    body {
+        font-family: sans-serif;
+        background-color: rgb(27, 1, 1);
+        background-image:url(./dragao3\ -\ Copia.png);
+        background-repeat:no-repeat;
+        background-size: cover;
+        color:rgb(233, 226, 217);
+        overflow-y:scroll;
+        overflow-x:hidden;
+        
+    }
+
+    header {
+        background-color: rgb(138, 18, 10); 
+        padding-top: 18px;
+        color: rgb(233, 226, 217);
+        
+    }
+
+    header h1{
+        padding: 12px;
+        background-color: rgb(138, 18, 10); 
+        color: rgb(241, 235, 233);
+        
+    }
+
+    header > .container {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 60px;
+    }
+
+    header > .container h1 {
+        padding-top: 50px;
+        font-size: 60px;
+    }
+
+    .container {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        
+        
+    }
+
+    nav {
+        background-color:  rgb(36, 4, 1); 
+        padding: 16px 0;
+        display:none;
+       
+        /* apos o display ser classificado como none, é necessario utilizar slideToggle na função do javascript*/
+
+    }
+
+    nav li {
+        list-style: none;
+        display: inline;
+        margin-right: 16px;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        
+    }
+
+    nav li a {
+        color: rgb(235, 235, 243);
+        text-decoration: none;
+        
+    }
+
+    .menu-hamburguer {
+        width: 32px;
+        cursor: pointer;
+    }
+
+    .menu-hamburguer span {
+        height: 2px;
+        width: 100%;
+        background-color:rgb(241, 235, 233);
+        display: block;
+        margin-bottom: 4px;
+    }
+
+    .container-flex {
+        display: flex;
+        text-align: center;
+        padding-top: 15px;
+        margin-bottom: 15px;
+        
+    }
+
+    .container-flex p {
+        padding-bottom: 30px;
+        
+    }
+
+    #Sobre-a-loja img {
+        max-width: 400px;
+       
+    }
+
+    section {
+        padding: 48px 0;
+    }
+
+    section h2 {
+        margin-bottom: 16px;
+    }
+
+   
+      button {
+        padding-bottom: 20px;
+        margin-bottom: 0 auto 50px;
+        width: 20%;
+        padding: 8px 0;
+        border-radius:16px;
+        text-decoration: none;
+        border: 3px solid rgb(31, 28, 27);
+        filter: brightness(200%) contrast(120%);
+        background-color: rgb(129, 27, 27);
+        color:rgb(240, 152, 152);
+        font-size:16px;
+        font-weight: bold;
+        font-style: italic;
+        cursor: pointer;
+        padding-left: 14px;
+        padding-right: 14px;
+       
+        }
+
+    button:hover {
+        transform: scale(1.4);
+        transition: all ease 0.3s;
+        background-color: transparent;
+        border: 3px solid rgb(243, 238, 238);
+    }
+    
+
+    .social-links {
+        display: flex; /* Transforma a lista em um flex container */
+        justify-content: center; /* Centraliza os itens horizontalmente */
+        cursor: pointer
+    }
+    
+    .social-links img {
+        height: 35px;
+        margin-top: 10px;
+        margin-left: 30px; 
+        padding-right: 50px;
+                
+    }
+    
+    
+    .social-links li {
+        margin-left: 15px;
+        display: inline;
+        margin: right -50px; 
+        
+    }
+    
+    .social-links li a {
+        margin-right: -40px;
+        text-align: center;
+        
+        
+    }
+
+
+    .social-links li p {
+        text-align: right;                      
+    } 
+
+
+    .contact{
+        text-align: center;
+        margin-right: 900px;
+        margin-bottom: 10px;
+        }
+
+   
+    footer {
+        
+        background-color:rgb(138, 18, 10);
+        color:rgb(224, 183, 170);
+        padding: 8px ; 
+        padding-top: 45px; 
+        margin-bottom: -8px;
+                
+    }
+
+    footer a {
+        color:rgb(224, 183, 170);
+        padding: 16px 0;   
+        text-decoration: none; 
+        text-align: center; 
+       
+    }
+
+        
+    footer p {
+       text-align: center;
+       margin-left: 200px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .menu-hamburguer {
+        width: 32px;
+        cursor: pointer;
+       margin-left: 25px;
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        header {
+           margin-right: -20px; 
+        }            
+    }
+
+    @media screen and (max-width: 768px){
+        header, h3 {
+            font-size: 13px;
+            text-align:center; 
+            padding-bottom: 20px;
+        }            
+    }
+
+    @media screen and (max-width: 768px){
+        header .container {
+            padding: 10px 0;
+            display:inline; 
+            justify-content:space-between; 
+            margin-right: -30px; 
+        
+            
+            
+        }            
+    }
+
+    @media screen and (max-width: 768px){
+        .container-flex a {
+            width: 30px;
+        }            
+    }
+    
+
+    @media screen and (max-width: 768px){
+        header .container a {
+            font-size: 12px;
+        }            
+    }
+  
+    @media screen and (max-width: 768px) {
+        .container-flex {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: auto; /* Defina a altura necessária ou 'auto' se o conteúdo determinar a altura */
+          width: 100%; /* Ajuste a largura conforme necessário */
+          padding: 20px; /* Adapte o preenchimento conforme necessário */
+          margin-bottom: -120px;
+          
+        }
+      
+        .container-flex img {
+          display: block; /* Garante que a imagem não influencie no alinhamento vertical do texto */
+          margin-bottom: 10px; /* Espaçamento opcional entre a imagem e o texto */
+        }
+      
+        .container-flex p {
+          text-align: center;
+          margin: 0; /* Remove margens padrão */
+        }
+
+    }
+      
+    @media screen and (max-width: 768px) {
+        .about-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center; /* Isso centralizará os elementos horizontalmente */
+          text-align: center;
+          margin-bottom: -300px;
+          margin-top: -100px;
+        }
+      }
+
+           
+
+      @media screen and (max-width: 768px) {
+        body {
+            background-image:url(./images/dragao3\ -\ Copia.png);
+            background-repeat:no-repeat;
+            background-size:300%; /* A imagem cobrirá todo o corpo */
+            background-position: center;
+            margin-left: 5px; /* Remova margens do corpo para cobrir toda a tela */
+            padding: 0; /* Remova preenchimento do corpo para cobrir toda a tela */                  
+            margin-right: -45px;
+        }
+        
+        }
+
+        @media screen and (max-width: 768px) {
+            .descricao-studio {
+            display: block;
+             text-align: center;
+             padding-top: 300px;
+            
+        }
+            
+    }
+
+                   
+    @media screen and (max-width: 768px) {
+        #carousel-imagens {
+            height:300px; 
+            max-width: 500px;        
+            padding-left: 5px;
+            text-align: center;
+            margin-bottom: -260px;
+            margin-top: -180px;
+            
+        }
+    
+        .carousel-imagens h2 {
+            text-align: center;
+            margin-top: -250px;
+           
+        }
+    
+        #carousel-imagens img {
+            max-width: 60%; 
+            height: 300px; 
+           
+           
+        }
+    
+        .carousel-imagens p {
+            text-align: center;
+            padding-top: 50px;
+            margin-bottom: -10px;
+            
+    
+        }
+    
+           
+        .carousel-imagens {
+            display: flex; /* Torna o conteúdo do elemento flexível */
+            flex-direction: column; /* Organiza os itens verticalmente */
+            align-items: center; /* Centraliza os itens horizontalmente */
+            text-align: center; /* Centraliza o conteúdo dentro do elemento */
+            margin-top:300px;
+        }
+        
+        .carousel-imagens a {
+            text-decoration: none; /* Remove o sublinhado padrão do link */
+            margin-top: -25px; /* Espaçamento entre o parágrafo e o link */
+            padding-bottom: 10px;
+           
+        }    
+                             
+        }
+      
+      
+      @media screen and (max-width: 768px) {
+        .carousel-imagens img {
+          padding-top: 15px; /* Ajuste opcional para espaçamento superior */
+          margin-right: 50px;
+          max-width: 50px;
+          height: 300px;
+          margin-left: 200px;
+          margin-bottom: 40px;
+          padding-top: 150px;
+          padding-left: 100px;
+          align-items: center;
+
+        }
+      }
+      
+          
+       @media screen and (max-width: 768px) {
+        .social-links img {
+        height: 18px;
+        align-items: center;
+        padding-left: 10px;
+        justify-content: center;
+        margin-right: -100px;
+                    
+        }
+     }
+
+
+        @media screen and (max-width: 768px) {
+        .social-links li {
+        height: 18px;
+        align-items: center;            
+        margin-right: 35px;
+
+        }
+    }                                      
+
+
+        @media screen and (max-width: 768px) {
+        .social-links {
+        height: 18px;
+        align-items: center;            
+        margin-right: -200px;
+                    
+                          
+        }
+    }
+        
+
+         @media screen and (max-width: 768px) {
+        .footer {
+        padding: 160x 0;   
+        text-decoration: none;  
+        background-color:rgb(138, 18, 10);
+        font-size: 12px;
+        padding-right: 100px;
+         }
+                        
+        }
+
+        @media screen and (max-width: 768px) {
+            .container-footer p{
+                margin-left: 10px;
+                font-size: 10px;
+                text-align: center;
+                padding-bottom: 11px;
+           }
+                            
+            }
+
+
+         @media screen and (max-width: 768px){
+        .contact h3 {
+        text-align: center;
+        font-size: 12px;
+        margin-right: -365px;
+        font-size: 12px;
+        }
+        }
+               
+        .contact_dress {
+        text-align:center;
+        margin-left: -60px;
+        padding-top: 30px;
+        font-size: 10px;
+        margin-right: -20px;
+        }
+        
+        @media screen and (max-width: 768px){
+        .contact_dress{
+        text-align:center;
+        margin-left: -60px;
+        padding-top: 30px;
+        font-size: 11px;
+        margin-right: -385px;
+        }
+        }
+        
+            @media screen and (max-width: 768px){
+                header > .container h1 {
+                    padding-top: 20px;
+                    font-size: 30px;
+                }
+            }
+            
+            @media screen and (max-width: 768px){
+                #imagem-sobre-o-artista{
+                    max-width: 100%;
+                    height: 300px;
+                    width: 400px;
+                    margin-bottom: 30px;
+                    padding-top: 100px;
+                    
+                } 
+            }
+        
+
+            @media screen and (max-width: 768px){
+                .container-flex  {
+                    width: 400px;
+                    
+                    
+                } 
+            }
+            
+            @media screen and (max-width: 768px){
+                .container-flex button {
+                    width: 180px; /* Defina a largura desejada para o botão */
+                }
+            }
+           
+            
+      
