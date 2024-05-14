@@ -561,5 +561,21 @@
                 }
             }
            
+              @media screen and (max-width: 768px){
+                
+            body {
+                font-family: sans-serif;
+                background-color: rgb(27, 1, 1);
+                background-image:url(./dragao3\ -\ Copia.png);
+                background-repeat:repeat;
+                background-size:contain;
+                color:rgb(233, 226, 217);
+                overflow-y:scroll;
+                overflow-x:hidden;
+                
+            }
             
+      
+            }
+
       
